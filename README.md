@@ -1,7 +1,7 @@
 Discovered while working on https://github.com/cypress-io/cypress/issues/26148
 
-✅ Works: NODE_OPTIONS="--loader ts-node/esm" node index.ts
-❌ Does not work: NODE_OPTIONS="--loader ts-node/esm/transpile-only" node index.ts
+- ✅ Works: `NODE_OPTIONS="--loader ts-node/esm" node index.ts`
+- ❌ Does not work: `NODE_OPTIONS="--loader ts-node/esm/transpile-only" node index.ts`
 
 Error:
 
